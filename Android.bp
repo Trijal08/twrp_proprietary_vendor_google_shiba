@@ -5,9 +5,6 @@
 soong_namespace {
 	imports: [
 		"device/google/shusky",
-		"hardware/google/av",
-		"hardware/google/gchips",
-		"hardware/google/graphics/common",
 		"hardware/google/interfaces",
 		"hardware/google/pixel",
 	],
@@ -136,7 +133,6 @@ android_app_import {
 	name: "VZWAPNLib",
 	owner: "google",
 	apk: "proprietary/product/app/VZWAPNLib/VZWAPNLib.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -148,7 +144,6 @@ android_app_import {
 	name: "AICorePrebuilt",
 	owner: "google",
 	apk: "proprietary/product/priv-app/AICorePrebuilt/AICorePrebuilt.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -161,7 +156,6 @@ android_app_import {
 	name: "AppDirectedSMSService",
 	owner: "google",
 	apk: "proprietary/product/priv-app/AppDirectedSMSService/AppDirectedSMSService.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -174,7 +168,6 @@ android_app_import {
 	name: "CarrierSettings_signed_47.0.602606545",
 	owner: "google",
 	apk: "proprietary/product/priv-app/CarrierSettings_signed_47.0.602606545/CarrierSettings_signed_47.0.602606545.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -187,7 +180,6 @@ android_app_import {
 	name: "CarrierWifi",
 	owner: "google",
 	apk: "proprietary/product/priv-app/CarrierWifi/CarrierWifi.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -236,7 +228,6 @@ android_app_import {
 	name: "DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02",
 	owner: "google",
 	apk: "proprietary/product/priv-app/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02/DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -249,7 +240,6 @@ android_app_import {
 	name: "DevicePersonalizationPrebuiltPixel2023-aiai_20240329.00_RC16",
 	owner: "google",
 	apk: "proprietary/product/priv-app/DevicePersonalizationPrebuiltPixel2023-aiai_20240329.00_RC16/DevicePersonalizationPrebuiltPixel2023-aiai_20240329.00_RC16.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -274,7 +264,6 @@ android_app_import {
 	name: "EuiccGoogle",
 	owner: "google",
 	apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogle.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -287,7 +276,6 @@ android_app_import {
 	name: "HardwareInfo",
 	owner: "google",
 	apk: "proprietary/product/priv-app/HardwareInfo/HardwareInfo.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -300,7 +288,6 @@ android_app_import {
 	name: "HotwordEnrollmentOKGoogleFUSIONPro",
 	owner: "google",
 	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleFUSIONPro/HotwordEnrollmentOKGoogleFUSIONPro.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -313,7 +300,6 @@ android_app_import {
 	name: "HotwordEnrollmentXGoogleFUSIONPro",
 	owner: "google",
 	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleFUSIONPro/HotwordEnrollmentXGoogleFUSIONPro.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -338,7 +324,6 @@ android_app_import {
 	name: "PixelCameraServices",
 	owner: "google",
 	apk: "proprietary/product/priv-app/PixelCameraServices/PixelCameraServices.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -363,7 +348,6 @@ android_app_import {
 	name: "WfcActivation",
 	owner: "google",
 	apk: "proprietary/product/priv-app/WfcActivation/WfcActivation.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -387,7 +371,6 @@ android_app_import {
 	name: "CarrierSetup",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/CarrierSetup/CarrierSetup.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -424,7 +407,6 @@ android_app_import {
 	name: "EuiccSupportPixel-P23",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/EuiccSupportPixel-P23/EuiccSupportPixel-P23.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -437,7 +419,6 @@ android_app_import {
 	name: "EuiccSupportPixelPermissions",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -450,7 +431,6 @@ android_app_import {
 	name: "MyVerizonServices",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/MyVerizonServices/MyVerizonServices.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -463,7 +443,6 @@ android_app_import {
 	name: "OemRilService",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/OemRilService/OemRilService.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -512,7 +491,6 @@ android_app_import {
 	name: "ShannonIms",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/ShannonIms/ShannonIms.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -525,7 +503,6 @@ android_app_import {
 	name: "ShannonRcs",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -538,7 +515,6 @@ android_app_import {
 	name: "grilservice",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/grilservice/grilservice.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -551,7 +527,6 @@ android_app_import {
 	name: "ril-extension",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/ril-extension/ril-extension.apk",
-	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -634,27 +609,6 @@ cc_prebuilt_binary {
 	prefer: true,
 	relative_install_path: "hw",
 	system_ext_specific: true,
-}
-
-install_symlink {
-	name: "libdmengine_libdmengine_symlink64",
-	product_specific: true,
-	installed_location: "priv-app/DMService/lib/arm64/libdmengine.so",
-	symlink_target: "/product/lib64/libdmengine.so",
-}
-
-install_symlink {
-	name: "libdmjavaplugin_libdmjavaplugin_symlink64",
-	product_specific: true,
-	installed_location: "priv-app/DMService/lib/arm64/libdmjavaplugin.so",
-	symlink_target: "/product/lib64/libdmjavaplugin.so",
-}
-
-install_symlink {
-	name: "libpixeldisplaymanager_jni_libpixeldisplaymanager_jni_symlink64",
-	system_ext_specific: true,
-	installed_location: "priv-app/PixelDisplayService/lib/arm64/libpixeldisplaymanager_jni.so",
-	symlink_target: "/system_ext/lib64/libpixeldisplaymanager_jni.so",
 }
 
 cc_prebuilt_library_shared {
